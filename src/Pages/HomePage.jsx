@@ -17,7 +17,7 @@ const HomePage = () => {
             <section id="home" name="home" ><Hero></Hero></section>
             <section id="home" name="home" ><AboutMe></AboutMe></section>
             <ContactMe></ContactMe>
-            <section id="service" name="service" ><EducationSection></EducationSection></section>
+            <section id="education" name="education" ><EducationSection></EducationSection></section>
             <section id="about" name="about" ><ContactSection></ContactSection></section>
             <section id="blog" name="blog" ><BlogSection></BlogSection></section>
             <section id="resume" name="resume" ><ResumeSection></ResumeSection></section>

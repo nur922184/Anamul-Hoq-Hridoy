@@ -64,7 +64,7 @@ const Navber = () => {
                     </li>
                     <li>
                         <Link
-                            to="service"
+                            to="education"
                             smooth={true}
                             duration={500}
                             spy={true}
@@ -169,7 +169,7 @@ const Navber = () => {
                     </li>
                     <li>
                         <Link
-                            to="service"
+                            to="education"
                             smooth={true}
                             duration={500}
                             spy={true}

@@ -1,7 +1,7 @@
 import React from 'react';
 import animation1 from '../../assets/T5k5.gif'
 import Me from '../../assets/4.jpg'
-import { FaEnvelope, FaFacebook, FaGitAlt, FaGithub, FaLaravel, FaLinkedin, FaNodeJs, FaPhone, FaReact, FaTimes, FaYoutube, } from 'react-icons/fa';
+import { FaEnvelope, FaFacebook, FaGitAlt, FaGithub, FaLaravel, FaLinkedin, FaNodeJs, FaPhone, FaReact, FaTimes, FaWhatsapp, FaYoutube, } from 'react-icons/fa';
 const ContactMe = () => {
     return (
         <div className="bg-gradient-to-r from-[#BBD2C5] via-[#536976] to-[#536976]  px-5 flex flex-col items-center text-center">
@@ -56,6 +56,13 @@ const ContactMe = () => {
                     className="dark:hover:text-white dark:text-teal-400 transition text-gray-950 hover:text-red-700"
                 >
                     <FaFacebook size={20} />
+                </a>
+                <a
+                    href="https://wa.me/8801618160869?text=Hello%20ANAMUL_HOQ_HRIDOY,%20I%20want%20to%20connect%20with%20you."
+                    target="_blank"
+                    className="dark:hover:text-white dark:text-teal-400 transition text-gray-950 hover:text-red-700"
+                >
+                    <FaWhatsapp size={20} />
                 </a>
                 <a
                     href="mailto:moniruzzaman2428@gmail.com"

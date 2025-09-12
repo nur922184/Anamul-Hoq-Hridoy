@@ -8,7 +8,7 @@ import {
   Twitter,
   Facebook,
 } from "lucide-react";
-import { FaDev } from "react-icons/fa";
+import { FaDev, FaWhatsapp } from "react-icons/fa";
 import Aboutme from "../../assets/_20240510_085948.jpg";
 
 const DeveloperContactSection = () => {
@@ -24,9 +24,11 @@ const DeveloperContactSection = () => {
       <div className=" mx-auto max-w-5xl">
         {/* Heading */}
         <div className="text-center mb-12">
+          <div className="mb-2 mt-2 border-b-2"><hr /></div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-300">
-            Contact The Developer
+            <span className="text-teal-50">Contact</span>  The Developer
           </h2>
+          <div className="mb-2 mt-2 border-b-2"><hr /></div>
           <p className="text-gray-200 mt-3">
             Let’s connect and collaborate on exciting opportunities 🚀
           </p>
@@ -57,6 +59,7 @@ const DeveloperContactSection = () => {
               </p>
 
               <div className="grid gap-5">
+
                 {/* Phone */}
                 <div className="flex items-center gap-4 bg-white/5 p-3 rounded-xl hover:bg-white/10 transition">
                   <div className="bg-gradient-to-r from-teal-500 to-blue-600 p-3 rounded-full shadow-md">
@@ -71,7 +74,20 @@ const DeveloperContactSection = () => {
                     </p>
                   </div>
                 </div>
-
+                {/* Whatsapp */}
+                <div className="flex items-center gap-4 bg-white/5 p-3 rounded-xl hover:bg-white/10 transition">
+                  <div className="bg-gradient-to-r from-green-600 to-green-950 p-3 rounded-full shadow-md">
+                    <FaWhatsapp className="text-white w-5 h-5" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-left text-teal-300 font-bold">
+                      WhatsApps
+                    </p>
+                    <p className="text-white font-medium">
+                      <a target="_blank" href="https://wa.me/8801618160869?text=Hello%20Moniruzzaman,%20I%20want%20to%20connect%20with%20you.">+8801618-160869</a>
+                    </p>
+                  </div>
+                </div>
                 {/* Email */}
                 <div className="flex items-center gap-4 bg-white/5 p-3 rounded-xl hover:bg-white/10 transition">
                   <div className="bg-gradient-to-r from-pink-500 to-red-500 p-3 rounded-full shadow-md">
@@ -122,7 +138,7 @@ const DeveloperContactSection = () => {
                   <Linkedin className="w-5 h-5 text-white" />
                 </a>
                 <a
-                  href="https://www.facebook.com/anamul.hoq.hridoy.2025"
+                  href="https://www.facebook.com/md.moniruzzaman.tonoy"
                   target="_blank"
                   className="p-3 rounded-full bg-white/10 hover:bg-blue-500 transition"
                 >
@@ -135,6 +151,14 @@ const DeveloperContactSection = () => {
                 >
                   <Twitter className="w-5 h-5 text-white" />
                 </a>
+                <a
+                  href="https://wa.me/8801618160869?text=Hello%20Moniruzzaman,%20I%20want%20to%20connect%20with%20you."
+                  target="_blank"
+                  className="p-3 rounded-full bg-white/10 hover:bg-green-600 "
+                >
+                  <FaWhatsapp className="w-5 h-5 text-white" />
+                </a>
+
                 <a
                   href="https://dev.to/moniruzzaman2428"
                   target="_blank"

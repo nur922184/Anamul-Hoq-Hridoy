@@ -58,10 +58,12 @@ const BlogSection = () => {
     <section id="blog" className="bg-gradient-to-r from-[#BBD2C5] via-[#536976] to-[#536976] py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
+          <div className="mb-2 mt-2 border-b-2"><hr /></div>
           <h2 className="text-3xl md:text-4xl font-bold text-teal-400 mb-4 flex items-center justify-center gap-3">
             <BookOpen size={36} />
-            My Blog
+            My <span className="text-teal-50">Blog</span>
           </h2>
+          <div className="mb-2 mt-2 border-b-2"><hr /></div>
           <p className="text-gray-200 max-w-2xl mx-auto">
             Insights on economics, data analysis, and policy development from my research and studies
           </p>
