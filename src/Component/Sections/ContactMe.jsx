@@ -36,7 +36,7 @@ const ContactMe = () => {
                     <FaGithub size={20} />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/md-moniruzzaman-tonoy-7bb52b285/"
+                    href="https://www.linkedin.com/in/md-moniruzzama-7bb52b285/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="dark:hover:text-white dark:text-teal-400 transition text-gray-950 hover:text-red-700"
@@ -44,14 +44,14 @@ const ContactMe = () => {
                     <FaLinkedin size={20} />
                 </a>
                 <a
-                    href="https://x.com/moniruzzaman_24"
+                    href="https://x.com/_24"
                     target="_blank"
                     className="dark:hover:text-white dark:text-teal-400 transition text-gray-950 hover:text-red-700"
                 >
                     <FaTimes size={20} />
                 </a>
                 <a
-                    href="https://www.facebook.com/md.moniruzzaman.tonoy"
+                    href="https://www.facebook.com/anamul.hoq.hridoy.2025"
                     target="_blank"
                     className="dark:hover:text-white dark:text-teal-400 transition text-gray-950 hover:text-red-700"
                 >
@@ -65,7 +65,7 @@ const ContactMe = () => {
                     <FaEnvelope size={20} />
                 </a>
                 <a
-                    href="https://www.youtube.com/@moniruzzamam2428"
+                    href="https://www.youtube.com/@moniruzzam2428"
                     target="_blank"
                     className="dark:hover:text-white dark:text-teal-400 transition text-gray-950 hover:text-red-700"
                 >

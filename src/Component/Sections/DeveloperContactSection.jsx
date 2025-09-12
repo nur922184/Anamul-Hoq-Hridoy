@@ -105,7 +105,7 @@ const DeveloperContactSection = () => {
                   <Linkedin className="w-5 h-5 text-white" />
                 </a>
                 <a
-                  href="https://www.facebook.com/md.moniruzzaman.tonoy"
+                  href="https://www.facebook.com/anamul.hoq.hridoy.2025"
                    target="_blank"
                   className="p-3 rounded-full bg-white/10 hover:bg-blue-600 transition"
                 >

@@ -36,7 +36,7 @@ const Footer = () => {
                                 Email: <span className="text-teal-400"> <a href="mailto:nuruzzaman.engbd@gamil.com">*******@gamil.com</a></span>
                             </p>
                             <div className="flex gap-4 mt-4">
-                                <a href="https://facebook.com" className="p-2 bg-gray-800 rounded-full hover:bg-teal-500 transition">
+                                <a target="_blank" href="https://www.facebook.com/anamul.hoq.hridoy.2025" className="p-2 bg-gray-800 rounded-full hover:bg-teal-500 transition">
                                     <FaFacebookF />
                                 </a>
                                 <a href="https://linkedin.com" className="p-2 bg-gray-800 rounded-full hover:bg-teal-500 transition">

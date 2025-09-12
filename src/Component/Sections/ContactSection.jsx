@@ -66,7 +66,7 @@ const ContactSection = () => {
                             <h4 className="text-xl font-semibold mb-4 text-center">Follow Me</h4>
                             <div className="flex gap-6 justify-center mt-4">
                                 <a
-                                    href="https://facebook.com/"
+                                    href="https://www.facebook.com/anamul.hoq.hridoy.2025"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-teal-950 hover:text-white transition"
