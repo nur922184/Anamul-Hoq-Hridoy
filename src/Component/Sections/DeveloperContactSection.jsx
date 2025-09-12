@@ -1,6 +1,7 @@
 import React from "react";
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Facebook } from "lucide-react";
 import Aboutme from "../../assets/_20240510_085948.jpg";
+import { FaDev } from "react-icons/fa";
 
 const DeveloperContactSection = () => {
   return (
@@ -117,6 +118,13 @@ const DeveloperContactSection = () => {
                   className="p-3 rounded-full bg-white/10 hover:bg-sky-500 transition"
                 >
                   <Twitter className="w-5 h-5 text-white" />
+                </a>
+                <a
+                  href="https://dev.to/moniruzzaman2428"
+                  target="_blank"
+                  className="p-3 rounded-full bg-white/10 hover:bg-black transition"
+                >
+                  <FaDev className="w-5 h-5 text-white" />
                 </a>
               </div>
             </div>

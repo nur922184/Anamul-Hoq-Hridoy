@@ -151,7 +151,7 @@ const Navber = () => {
                             activeClass="text-teal-400"
                             className="cursor-pointer text-white hover:text-teal-400 transition"
                         >
-                            <FaHome size={22} />
+                            <FaHome size={18} />
                         </Link>
                     </li>
                     <li>
@@ -164,7 +164,7 @@ const Navber = () => {
                             activeClass="text-teal-400"
                             className="cursor-pointer text-white hover:text-teal-400 transition"
                         >
-                            <FaUser size={22} />
+                            <FaUser size={18} />
                         </Link>
                     </li>
                     <li>
@@ -177,7 +177,7 @@ const Navber = () => {
                             activeClass="text-teal-400"
                             className="cursor-pointer text-white hover:text-teal-400 transition"
                         >
-                            <FaBriefcase size={22} />
+                            <FaBriefcase size={18} />
                         </Link>
                     </li>
                     <li>
@@ -190,7 +190,7 @@ const Navber = () => {
                             activeClass="text-teal-400"
                             className="cursor-pointer text-white hover:text-teal-400 transition"
                         >
-                            <MdContactPhone size={22} />
+                            <MdContactPhone size={18} />
                         </Link>
                     </li>
 
@@ -204,7 +204,7 @@ const Navber = () => {
                             activeClass="text-teal-400"
                             className="cursor-pointer text-white hover:text-teal-400 transition"
                         >
-                            <FaBook size={22} />
+                            <FaBook size={18} />
                         </Link>
                     </li>
                 </ul>
