@@ -1,4 +1,4 @@
-import React from 'react';
+import './About.css'
 import Aboutme from "../../assets/Anamul.jpg";
 // import { ShieldCheck, Award, Heart } from "lucide-react";
 import { ShieldCheck, Award, Heart, BookOpen, Code, Cpu } from 'lucide-react';
