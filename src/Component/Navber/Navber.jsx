@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BsMoon, BsSun } from 'react-icons/bs';
-import { FaBook, FaBriefcase, FaHome, FaUser } from 'react-icons/fa';
+import { FaBook, FaBriefcase, FaDev, FaHome, FaUser } from 'react-icons/fa';
 import { MdContactPhone } from 'react-icons/md';
 import { Link } from 'react-scroll'; // ✅ react-scroll import
 
@@ -125,7 +125,7 @@ const Navber = () => {
                         <button
                             className="p-2 rounded-full ml-6 bg-gray-200 dark:bg-gray-700 text-black dark:text-white transition-colors duration-300"
                         >
-                            dev
+                            <FaDev className='text-teal-200' size={22} />
                         </button>
                     </Link>
                     <button
@@ -139,7 +139,7 @@ const Navber = () => {
             </div>
 
             {/* Bottom Navigation for Small Screens */}
-            <div className="fixed bottom-3 left-1/2 -translate-x-1/2 z-50">
+            <div className="fixed bottom-3 left-1/2 -translate-x-1/2 z-50 md:hidden">
                 {/* Gradient Border */}
                 <div className="p-[3px] rounded-full bg-gradient-to-r from-pink-50 via-teal-300 to-red-500 animate-gradient">
                     {/* Inner Navbar */}
@@ -214,7 +214,6 @@ const Navber = () => {
                     </div>
                 </div>
             </div>
-
         </nav>
     );
 };

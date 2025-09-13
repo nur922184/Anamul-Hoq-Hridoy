@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Economics from "../../assets/Economic.jpeg";
+import Data_Analysis from "../../assets/dataanlacis.jpeg";
+import Policy from "../../assets/change.png";
 import { Calendar, User, Clock, ArrowRight, BookOpen, Heart, MessageCircle, Share } from 'lucide-react';
 
 const BlogSection = () => {
@@ -14,7 +17,7 @@ const BlogSection = () => {
       author: "Anamul Hoq",
       likes: 24,
       comments: 8,
-      image: "https://indiacsr.in/wp-content/uploads/2024/09/global-economic.jpg"
+      image: Economics,
     },
     {
       id: 2,
@@ -27,7 +30,7 @@ const BlogSection = () => {
       author: "Anamul Hoq",
       likes: 31,
       comments: 12,
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80"
+      image: Data_Analysis,
     },
     {
       id: 3,
@@ -40,7 +43,7 @@ const BlogSection = () => {
       author: "Anamul Hoq",
       likes: 19,
       comments: 5,
-      image: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80"
+      image: Policy,
     }
   ]);
 
@@ -80,7 +83,7 @@ const BlogSection = () => {
                 <img
                   src={blog.image}
                   alt={blog.title}
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                  className="w-full bg-cover h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
 

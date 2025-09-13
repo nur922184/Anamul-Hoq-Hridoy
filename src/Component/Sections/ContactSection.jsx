@@ -103,11 +103,12 @@ const ContactSection = () => {
                     </div>
 
                     {/* Contact Form */}
-                    <form className="bg-gradient-to-r from-[#BBD2C5] via-[#536976] to-[#536976] rounded-2xl shadow-lg p-8 space-y-6">
+                    <form className="bg-gradient-to-r from-[#BBD2C5] via-[#536976] to-[#536976] rounded-2xl shadow-lg text-white p-8 space-y-6">
                         <div>
                             <label className="block text-gray-700 font-medium mb-2">Your Name</label>
                             <input
                                 type="text"
+                                required
                                 placeholder="Enter your name"
                                 className="w-full px-4 py-3 bg-gray-600 bg-opacity-50 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-500"
                             />
@@ -117,6 +118,7 @@ const ContactSection = () => {
                             <label className="block text-gray-700 font-medium mb-2">Email Address</label>
                             <input
                                 type="email"
+                                required
                                 placeholder="Enter your email"
                                 className="w-full px-4 py-3  bg-gray-600 bg-opacity-50 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-500"
                             />
@@ -125,6 +127,7 @@ const ContactSection = () => {
                         <div>
                             <label className="block text-gray-700 font-medium mb-2">Message</label>
                             <textarea
+                                required
                                 rows="5"
                                 placeholder="Write your message here..."
                                 className="w-full px-4 py-3  bg-gray-600 bg-opacity-50 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-500"
