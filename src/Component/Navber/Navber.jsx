@@ -139,76 +139,82 @@ const Navber = () => {
             </div>
 
             {/* Bottom Navigation for Small Screens */}
-            <div className="fixed bottom-0 left-0 right-0 md:hidden bg-slate-800 bg-opacity-80 backdrop-blur-md shadow-lg">
-                <ul className="flex justify-around items-center h-12">
-                    <li>
-                        <Link
-                            to="home"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            offset={-80}
-                            activeClass="text-teal-400"
-                            className="cursor-pointer text-white hover:text-teal-400 transition"
-                        >
-                            <FaHome size={18} />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="about"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            offset={-80}
-                            activeClass="text-teal-400"
-                            className="cursor-pointer text-white hover:text-teal-400 transition"
-                        >
-                            <FaUser size={18} />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="education"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            offset={-80}
-                            activeClass="text-teal-400"
-                            className="cursor-pointer text-white hover:text-teal-400 transition"
-                        >
-                            <FaBriefcase size={18} />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="contact"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            offset={-80}
-                            activeClass="text-teal-400"
-                            className="cursor-pointer text-white hover:text-teal-400 transition"
-                        >
-                            <MdContactPhone size={18} />
-                        </Link>
-                    </li>
-
-                    <li>
-                        <Link
-                            to="blog"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            offset={-80}
-                            activeClass="text-teal-400"
-                            className="cursor-pointer text-white hover:text-teal-400 transition"
-                        >
-                            <FaBook size={18} />
-                        </Link>
-                    </li>
-                </ul>
+            <div className="fixed bottom-3 left-1/2 -translate-x-1/2 z-50">
+                {/* Gradient Border */}
+                <div className="p-[3px] rounded-full bg-gradient-to-r from-pink-50 via-teal-300 to-red-500 animate-gradient">
+                    {/* Inner Navbar */}
+                    <div className="rounded-full bg-slate-900 bg-opacity-80 backdrop-blur-md shadow-lg">
+                        <ul className="flex justify-around items-center w-[320px] h-10 px-4">
+                            <li>
+                                <Link
+                                    to="home"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    offset={-80}
+                                    activeClass="text-teal-400"
+                                    className="cursor-pointer text-white hover:text-teal-400 transition"
+                                >
+                                    <FaHome size={15} />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="about"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    offset={-80}
+                                    activeClass="text-teal-400"
+                                    className="cursor-pointer text-white hover:text-teal-400 transition"
+                                >
+                                    <FaUser size={15} />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="education"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    offset={-80}
+                                    activeClass="text-teal-400"
+                                    className="cursor-pointer text-white hover:text-teal-400 transition"
+                                >
+                                    <FaBriefcase size={15} />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="contact"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    offset={-80}
+                                    activeClass="text-teal-400"
+                                    className="cursor-pointer text-white hover:text-teal-400 transition"
+                                >
+                                    <MdContactPhone size={15} />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="blog"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    offset={-80}
+                                    activeClass="text-teal-400"
+                                    className="cursor-pointer text-white hover:text-teal-400 transition"
+                                >
+                                    <FaBook size={15} />
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+
         </nav>
     );
 };

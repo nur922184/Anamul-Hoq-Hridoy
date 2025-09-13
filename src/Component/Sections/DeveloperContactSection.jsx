@@ -24,11 +24,15 @@ const DeveloperContactSection = () => {
       <div className=" mx-auto max-w-5xl">
         {/* Heading */}
         <div className="text-center mb-12">
-          <div className="mb-2 mt-2 border-b-2"><hr /></div>
+          <div className="mb-2 mt-2">
+            <hr className="h-1 border-0 bg-gradient-to-r from-teal-300 from-50% to-transparent to-50%" />
+          </div>
           <h2 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-300">
             <span className="text-teal-50">Contact</span>  The Developer
           </h2>
-          <div className="mb-2 mt-2 border-b-2"><hr /></div>
+          <div className="mb-2 mt-2">
+            <hr className="h-1 border-0 bg-gradient-to-l from-teal-50 from-50% to-transparent to-50%" />
+          </div>
           <p className="text-gray-200 mt-3">
             Let’s connect and collaborate on exciting opportunities 🚀
           </p>

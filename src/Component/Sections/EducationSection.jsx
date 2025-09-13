@@ -6,12 +6,16 @@ const EducationSection = () => {
         <section className="bg-gradient-to-r from-[#BBD2C5] via-[#536976] to-[#536976] py-20 px-4">
             <div className="container mx-auto">
                 <div className="text-center mb-16">
-                    <div className="mb-2 border-b-2"><hr /></div>
+                    <div className="mb-2 mt-2">
+                        <hr className="h-1 border-0 bg-gradient-to-r from-teal-300 from-50% to-transparent to-50%" />
+                    </div>
                     <h2 className="text-3xl md:text-4xl font-bold text-teal-400 mb-4 flex items-center justify-center gap-3">
-                        <GraduationCap size={36} />
-                        Education
+                        <GraduationCap className="text-teal-50" size={36} />
+                        Education<span ></span>
                     </h2>
-                    <div className="mb-2 border-b-2"><hr /></div>
+                    <div className="mb-2 mt-2">
+                        <hr className="h-1 border-0 bg-gradient-to-l from-teal-50 from-50% to-transparent to-50%" />
+                    </div>
                     <p className="text-gray-200 max-w-2xl mx-auto">
                         My academic journey and achievements
                     </p>

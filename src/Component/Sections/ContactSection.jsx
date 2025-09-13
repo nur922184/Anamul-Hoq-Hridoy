@@ -10,11 +10,15 @@ const ContactSection = () => {
 
                 {/* Header */}
                 <div className="text-center mb-12 text-white">
-                    <div className="mb-2 border-b-2"><hr /></div>
+                    <div className="mb-2 mt-2">
+                        <hr className="h-1 border-0 bg-gradient-to-r from-teal-400 from-50% to-transparent to-50%" />
+                    </div>
                     <h2 className="text-3xl md:text-4xl font-bold">
                         Get in <span className="text-teal-300">Touch</span>
                     </h2>
-                    <div className="mb-2 mt-2 border-b-2"><hr /></div>
+                    <div className="mb-2 mt-2">
+                        <hr className="h-1 border-0 bg-gradient-to-l from-teal-50 from-50% to-transparent to-50%" />
+                    </div>
                     <p className="mt-3 text-gray-200 max-w-2xl mx-auto">
                         Feel free to reach out for collaborations, project discussions, or just to say hi.
                     </p>
@@ -34,7 +38,7 @@ const ContactSection = () => {
                             {/* <p>nuruzzaman.engbd@gmail.com</p> */}
                         </div>
                         <div className='text-black flex items-center mb-4 justify-center'>
-                           <span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span>
+                            <span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span>
                             <span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span><span className="loading loading-infinity loading-xs"></span>
                         </div>
                         <div className="flex items-center gap-4 mb-4">
@@ -45,7 +49,7 @@ const ContactSection = () => {
 
                         <div className="flex items-center gap-4 mb-4">
                             <FaWhatsapp className="w-6 h-6 text-teal-950" />
-                            <a  href="https://wa.me/8801618160869?text=Hello%20ANAMUL_HOQ_HRIDOY,%20I%20want%20to%20connect%20with%20you.">WhatsApp: +880 17********</a>
+                            <a href="https://wa.me/8801618160869?text=Hello%20ANAMUL_HOQ_HRIDOY,%20I%20want%20to%20connect%20with%20you.">WhatsApp: +880 17********</a>
                             {/* <p>+880 1707-530810</p> */}
                         </div>
                         <div className="flex items-center gap-4 mb-4">

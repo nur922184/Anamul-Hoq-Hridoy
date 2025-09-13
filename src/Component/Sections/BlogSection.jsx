@@ -58,12 +58,16 @@ const BlogSection = () => {
     <section id="blog" className="bg-gradient-to-r from-[#BBD2C5] via-[#536976] to-[#536976] py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <div className="mb-2 mt-2 border-b-2"><hr /></div>
+          <div className="mb-2 mt-2">
+            <hr className="h-1 border-0 bg-gradient-to-r from-teal-50 from-50% to-transparent to-50%" />
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold text-teal-400 mb-4 flex items-center justify-center gap-3">
             <BookOpen size={36} />
             My <span className="text-teal-50">Blog</span>
           </h2>
-          <div className="mb-2 mt-2 border-b-2"><hr /></div>
+          <div className="mb-2 mt-2">
+            <hr className="h-1 border-0 bg-gradient-to-l from-teal-400 from-50% to-transparent to-50%" />
+          </div>
           <p className="text-gray-200 max-w-2xl mx-auto">
             Insights on economics, data analysis, and policy development from my research and studies
           </p>
@@ -73,28 +77,28 @@ const BlogSection = () => {
           {blogs.map(blog => (
             <div key={blog.id} className="bg-gray-800/70  rounded-xl overflow-hidden border border-teal-500/20 ">
               <div className="h-48 overflow-hidden">
-                <img 
-                  src={blog.image} 
+                <img
+                  src={blog.image}
                   alt={blog.title}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
-              
+
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <span className="bg-teal-700 text-teal-300 text-xs px-3 py-1 rounded-full">
                     {blog.category}
                   </span>
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-white mb-3 hover:text-teal-400 transition-colors cursor-pointer" onClick={() => openBlogModal(blog)}>
                   {blog.title}
                 </h3>
-                
+
                 <p className="text-gray-300 mb-4">
                   {blog.excerpt}
                 </p>
-                
+
                 <div className="flex items-center justify-between text-sm text-gray-400 mb-4">
                   <div className="flex items-center gap-3">
                     <div className="flex items-center gap-1">
@@ -111,7 +115,7 @@ const BlogSection = () => {
                     <span>{blog.author}</span>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center justify-between pt-4 border-t border-gray-700">
                   <div className="flex items-center gap-4">
                     <button className="flex items-center gap-1 text-gray-400 hover:text-rose-500 transition-colors">
@@ -123,8 +127,8 @@ const BlogSection = () => {
                       <span>{blog.comments}</span>
                     </button>
                   </div>
-                  
-                  <button 
+
+                  <button
                     className="flex items-center gap-1 text-teal-400 hover:text-teal-300 transition-colors"
                     onClick={() => openBlogModal(blog)}
                   >
@@ -148,30 +152,30 @@ const BlogSection = () => {
         <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4">
           <div className="bg-gray-800 rounded-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto">
             <div className="h-64 overflow-hidden">
-              <img 
-                src={selectedBlog.image} 
+              <img
+                src={selectedBlog.image}
                 alt={selectedBlog.title}
                 className="w-full h-full object-cover"
               />
             </div>
-            
+
             <div className="p-6">
               <div className="flex justify-between items-start mb-4">
                 <span className="bg-teal-700 text-teal-300 text-xs px-3 py-1 rounded-full">
                   {selectedBlog.category}
                 </span>
-                <button 
+                <button
                   onClick={closeBlogModal}
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   ✕
                 </button>
               </div>
-              
+
               <h2 className="text-2xl font-bold text-white mb-4">
                 {selectedBlog.title}
               </h2>
-              
+
               <div className="flex items-center gap-4 text-sm text-gray-400 mb-6">
                 <div className="flex items-center gap-1">
                   <Calendar size={14} />
@@ -186,12 +190,12 @@ const BlogSection = () => {
                   <span>{selectedBlog.author}</span>
                 </div>
               </div>
-              
+
               <div className="prose prose-invert max-w-none text-gray-300">
                 <p className="mb-4">{selectedBlog.excerpt}</p>
                 <p>{selectedBlog.content}</p>
               </div>
-              
+
               <div className="flex items-center justify-between pt-6 mt-6 border-t border-gray-700">
                 <div className="flex items-center gap-4">
                   <button className="flex items-center gap-2 text-gray-400 hover:text-rose-500 transition-colors">
@@ -207,8 +211,8 @@ const BlogSection = () => {
                     <span>Share</span>
                   </button>
                 </div>
-                
-                <button 
+
+                <button
                   className="bg-teal-600 hover:bg-teal-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
                   onClick={closeBlogModal}
                 >

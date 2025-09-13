@@ -33,14 +33,18 @@ const AboutMe = () => {
                 </div>
                 {/* //  Right Side: 3D Styled Image */}
                 <div className="flex-1 space-y-6 order-1 md:order-2">
-                    <div className="mb-2 border-b-2"><hr /></div>
+                    <div className="mb-2 mt-2">
+                        <hr className="h-1 border-0 bg-gradient-to-l from-teal-50 from-50% to-transparent to-50%" />
+                    </div>
                     <div className='flex'>
-                        <BiIntersect size={20}/>
+                        <BiIntersect size={20} />
                         <h2 className="text-3xl md:text-4xl font-bold text-teal-400 mb-4">
-                            About Me
+                          <span className="text-teal-50">About</span>   Me
                         </h2>
                     </div>
-                    <div className="mb-2 border-b-2"><hr /></div>
+                    <div className="mb-2 mt-2">
+                        <hr className="h-1 border-0 bg-gradient-to-r from-teal-500 from-50% to-transparent to-50%" />
+                    </div>
 
                     <p className="text-gray-100 leading-relaxed text-lg">
                         I am a dedicated <span className="text-teal-300 font-semibold">Economics Professional</span> with a strong academic background and a passion for data-driven analysis. Currently pursuing my Master's in Economics, I specialize in transforming complex data into actionable insights.
