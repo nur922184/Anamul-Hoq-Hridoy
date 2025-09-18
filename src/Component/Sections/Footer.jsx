@@ -31,10 +31,10 @@ const Footer = () => {
                         <div>
                             <h2 className="text-xl font-semibold text-white mb-4">Contact Info</h2>
                             <p className="text-gray-400 text-sm mb-3">
-                                Phone: <span className="text-teal-400"> <a href="tel:01707530810">**********</a></span>
+                                Phone: <span className="text-teal-400"> <a href="tel:01734006926">01734006926</a></span>
                             </p>
                             <p className="text-gray-400 text-sm mb-3">
-                                Email: <span className="text-teal-400"> <a href="mailto:nuruzzaman.engbd@gamil.com">*******@gamil.com</a></span>
+                                Email: <span className="text-teal-400"> <a href="mailto:ahoq3906@gmail.com">ahoq3906@gmail.com</a></span>
                             </p>
                             <div className="flex gap-4 mt-4">
                                 <a target="_blank" href="https://www.facebook.com/anamul.hoq.hridoy.2025" className="p-2 bg-gray-800 rounded-full hover:bg-teal-500 transition">

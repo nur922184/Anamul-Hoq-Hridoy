@@ -58,14 +58,14 @@ const ContactMe = () => {
                     <FaFacebook size={20} />
                 </a>
                 <a
-                    href="https://wa.me/8801618160869?text=Hello%20ANAMUL_HOQ_HRIDOY,%20I%20want%20to%20connect%20with%20you."
+                    href="https://wa.me/8801734006926?text=Hello%20ANAMUL_HOQ_HRIDOY,%20I%20want%20to%20connect%20with%20you."
                     target="_blank"
                     className="dark:hover:text-white dark:text-teal-400 transition text-gray-950 hover:text-red-700"
                 >
                     <FaWhatsapp size={20} />
                 </a>
                 <a
-                    href="mailto:moniruzzaman2428@gmail.com"
+                    href="mailto:ahoq3906@gmail.com"
                     target="_blank"
                     className="dark:hover:text-white dark:text-teal-400 transition text-gray-950 hover:text-red-700"
                 >
@@ -79,7 +79,7 @@ const ContactMe = () => {
                     <FaYoutube size={20} />
                 </a>
                 <a
-                    href="tel:+8802018200869"
+                    href="tel:+8801734006926"
                     className="dark:hover:text-white dark:text-teal-400 transition text-gray-950 hover:text-red-700"
                 >
                     <FaPhone size={20} />
@@ -88,7 +88,7 @@ const ContactMe = () => {
 
             {/* Call to Action Button */}
             <a
-                href="tel:+880******"
+                href="tel:+8801734006926"
                 className="bg-teal-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-full transition-all"
             >
                 Schedule a Call

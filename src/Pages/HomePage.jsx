@@ -9,6 +9,7 @@ import ResumeSection from '../Component/Sections/ResumeSection';
 import BlogSection from '../Component/Sections/BlogSection';
 import Footer from '../Component/Sections/Footer';
 import DeveloperContactSection from '../Component/Sections/DeveloperContactSection';
+import SkillsSection from '../Component/Sections/SkillsSection';
 
 const HomePage = () => {
     return (
@@ -17,6 +18,7 @@ const HomePage = () => {
             <section id="home" name="home" ><Hero></Hero></section>
             <section id="home" name="home" ><AboutMe></AboutMe></section>
             <ContactMe></ContactMe>
+            <SkillsSection></SkillsSection>
             <section id="education" name="education" ><EducationSection></EducationSection></section>
             <section id="about" name="about" ><ContactSection></ContactSection></section>
             <section id="blog" name="blog" ><BlogSection></BlogSection></section>

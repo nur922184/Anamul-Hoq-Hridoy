@@ -43,18 +43,18 @@ const ContactSection = () => {
                         </div>
                         <div className="flex items-center gap-4 mb-4">
                             <FaMailBulk className="w-6 h-6 text-teal-950" />
-                            <a href="mailto:nuruzzaman.engbd@gmail.com">..............@gmail.com</a>
+                            <a href="mailto:ahoq3906@gmail.com">ahoq3906@gmail.com</a>
                             {/* <p>nuruzzaman.engbd@gmail.com</p> */}
                         </div>
 
                         <div className="flex items-center gap-4 mb-4">
                             <FaWhatsapp className="w-6 h-6 text-teal-950" />
-                            <a href="https://wa.me/8801618160869?text=Hello%20ANAMUL_HOQ_HRIDOY,%20I%20want%20to%20connect%20with%20you.">WhatsApp: +880 17********</a>
+                            <a href="https://wa.me/8801734006926?text=Hello%20ANAMUL_HOQ_HRIDOY,%20I%20want%20to%20connect%20with%20you.">WhatsApp: +880 1734006926</a>
                             {/* <p>+880 1707-530810</p> */}
                         </div>
                         <div className="flex items-center gap-4 mb-4">
                             <FaPhone className="w-6 h-6 text-teal-950" />
-                            <a href="tel:+880 1707-530810">Phone: +880 17********</a>
+                            <a href="tel:+880 1707-530810">Phone: +880 1734006926</a>
                             {/* <p>+880 1707-530810</p> */}
                         </div>
 
